@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{5ad0323a-c98b-4df1-afcc-e3479c05f68c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Client">
+      <UniqueIdentifier>{74db1ff6-7fdf-4343-8c69-406a787ab3c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Client\View">
+      <UniqueIdentifier>{87027860-03c8-4619-b972-cabcd4e8ca40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Client\Controller">
+      <UniqueIdentifier>{832cea55-61f5-478e-a567-e1d111b99ccc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Core">
+      <UniqueIdentifier>{c22e778b-0944-4cfe-adeb-72dbaad89877}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Client\Model">
+      <UniqueIdentifier>{bef33cf8-8670-4105-bdd5-0fb20e82e437}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Client\Data">
+      <UniqueIdentifier>{1c4d0a9b-edde-4dbe-a6e1-3100fb3b7ec6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\Source\Core\FileManager.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\Core\Thread.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_Thread.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_Thread.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\Core\ThreadManager.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\Client\main.cpp">
+      <Filter>Source\Client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\Client\Controller\MainController.cpp">
+      <Filter>Source\Client\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\Client\Controller\SettingsController.cpp">
+      <Filter>Source\Client\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\Client\Model\MainModel.cpp">
+      <Filter>Source\Client\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\Client\Model\ModelFactory.cpp">
+      <Filter>Source\Client\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\Client\Model\SettingsModel.cpp">
+      <Filter>Source\Client\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\Client\View\AboutView.cpp">
+      <Filter>Source\Client\View</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_AboutView.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_AboutView.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\Client\View\MainView.cpp">
+      <Filter>Source\Client\View</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_MainView.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_MainView.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\Client\View\ResourceFactory.cpp">
+      <Filter>Source\Client\View</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\Client\View\SettingsView.cpp">
+      <Filter>Source\Client\View</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_SettingsView.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_SettingsView.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_MainView.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_SettingsView.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\..\Source\Core\Thread.h">
+      <Filter>Source\Core</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\Source\Client\View\AboutView.h">
+      <Filter>Source\Client\View</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\Source\Client\View\MainView.h">
+      <Filter>Source\Client\View</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\Source\Client\View\SettingsView.h">
+      <Filter>Source\Client\View</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FormFiles\AboutView.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FormFiles\MainView.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FormFiles\SettingsView.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="MainView.qrc">
+      <Filter>Resources</Filter>
+    </CustomBuild>
+    <CustomBuild Include="SettingsView.qrc">
+      <Filter>Resources</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\Source\Core\FileManager.h">
+      <Filter>Source\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Source\Core\Ioc.h">
+      <Filter>Source\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Source\Core\Serializer.h">
+      <Filter>Source\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Source\Core\ThreadManager.h">
+      <Filter>Source\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Source\Core\Tuple.h">
+      <Filter>Source\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Source\Client\Data\ActionType.h">
+      <Filter>Source\Client\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Source\Client\Data\FileData.h">
+      <Filter>Source\Client\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Source\Client\Data\FileSyncData.h">
+      <Filter>Source\Client\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Source\Client\Data\SyncFoldersData.h">
+      <Filter>Source\Client\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Source\Client\Data\WorkflowData.h">
+      <Filter>Source\Client\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Source\Client\Data\WorkflowItemData.h">
+      <Filter>Source\Client\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Source\Client\Controller\MainController.h">
+      <Filter>Source\Client\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Source\Client\Controller\SettingsController.h">
+      <Filter>Source\Client\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Source\Client\Model\MainModel.h">
+      <Filter>Source\Client\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Source\Client\Model\ModelFactory.h">
+      <Filter>Source\Client\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Source\Client\Model\SettingsModel.h">
+      <Filter>Source\Client\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Source\Client\View\ResourceFactory.h">
+      <Filter>Source\Client\View</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_AboutView.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_MainView.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_SettingsView.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Source\Client\Data\CategoryType.h">
+      <Filter>Source\Client\Data</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="LightFileSync.rc" />
+  </ItemGroup>
+</Project>

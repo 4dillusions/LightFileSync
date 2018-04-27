@@ -1,0 +1,26 @@
+<RCC>
+  <qresource prefix="MainView">
+    <file>Resources/LeftNew.png</file>
+    <file>Resources/LeftOnly.png</file>
+    <file>Resources/RightNew.png</file>
+    <file>Resources/RightOnly.png</file>
+    <file>Resources/apply.png</file>
+    <file>Resources/deleteLeft.png</file>
+    <file>Resources/deleteRight.png</file>
+    <file>Resources/overrideLeft.png</file>
+    <file>Resources/overrideRight.png</file>
+    <file>Resources/copyLeft.png</file>
+    <file>Resources/copyRight.png</file>
+    <file>Resources/stop.png</file>
+    <file>Resources/save.png</file>
+    <file>Resources/rewrite.png</file>
+    <file>Resources/nothing.png</file>
+    <file>Resources/add.png</file>
+    <file>Resources/delete.png</file>
+    <file>Resources/open.png</file>
+    <file>Resources/about.png</file>
+    <file>Resources/settings.png</file>
+    <file>Resources/sync.ico</file>
+    <file>Resources/sync.png</file>
+  </qresource>
+</RCC>

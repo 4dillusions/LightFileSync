@@ -1,7 +1,10 @@
+/**
+@mainpage Home
+
 Light File Sync
 ===============
 Its a lightweight and fast file synchronization software written in C++. Minimum requirements: a PC with Windows7 x64 OS. No installer, no virus or malware, its totally free.
-![alt tag](Doc/Doxygen/Res/LFSSync.jpg)
+<img src="../Res/LFSSync.jpg" alt="Light File Sync"><br>
 
 Download source code
 --------------------
@@ -22,3 +25,4 @@ Compile
 Precompiled executable with depencies
 -------------------------------------
 <a target="_blank" href="http://4dillusions.com/Download/LightFileSync/LightFileSync.zip"><b>download LightFileSync 1.0</b></a>
+**/

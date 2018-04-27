@@ -1,0 +1,42 @@
+/**
+	@brief
+	QT Windows client application
+*/
+namespace Client
+{
+
+	/**
+		@brief
+		Business logic in MVC
+	*/
+	namespace Controller
+	{ }
+
+	/**
+		@brief
+		POCO data representations
+	*/	
+	namespace Data
+	{ }
+	
+	/**
+		@brief
+		View data model and operations in MVC
+	*/
+	namespace Model
+	{ }
+	
+	/**
+		@brief
+		Plain view in MVC
+	*/
+	namespace View
+	{ }
+}
+
+/**
+	@brief
+	Core subsystem for file management, multithreading etc.
+*/
+namespace Core
+{ }

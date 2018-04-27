@@ -1,0 +1,13 @@
+Windows x64 - Visual Studio 2017
+================================
+Create VS solution: QT/Qt GUI Application
+******************************************
+default preprocessors: UNICODE, _UNICODE, WIN32, WIN64, QT_DLL, QT_NO_DEBUG, NDEBUG, QT_CORE_LIB, QT_GUI_LIB ,QT_WIDGETS_LIB ,QT_CONCURRENT_LIB
+
+1. LightFileSync (Qt GUI application .exe) preprocessors: default
+	QT modules: Concurrent, Core, GUI, Widgets
+	General\Target Platform\ Debug: Windows 10, Release: Windows
+	General\Windows SDK Version\ Debug: 10.0.10240.0, Release: 7.0
+	General\Platform Toolset\ Debug: Visual Studio 2017 (v141), Release: Visual Studio 2017 - Windows XP (v141_xp)
+	C/C++\Precompiled headers\Precompiled Header\Not Using Precompiled Headers
+	

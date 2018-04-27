@@ -1,0 +1,17 @@
+/**
+@defgroup How to use
+
+<ol>
+<li>Create/modify workflow</li>
+<li>Add/modify folders for left->right syncronization</li>
+<li>Modify settings</li>
+<li>Start syncronization</li>
+<li>Apply sync files if you want</li>
+</ol>
+
+<img src="../Res/LFSFirstStep.jpg" alt="first steps"><br>
+<img src="../Res/LFSSecondStep.jpg" alt="first steps"><br>
+<img src="../Res/LFSSync.jpg" alt="first steps"><br>
+
+That is all! You are ready to sync all your files.
+*/
