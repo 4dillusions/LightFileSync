@@ -18,7 +18,3 @@ Depencies
 Compile
 -------
 <b>Windows x64</b> Open Solution file: Solution\Windows\LightFileSync.sln
-
-Precompiled executable with depencies
--------------------------------------
-<a target="_blank" href="http://4dillusions.com/Download/LightFileSync/LightFileSync.zip"><b>download LightFileSync 1.0</b></a>
